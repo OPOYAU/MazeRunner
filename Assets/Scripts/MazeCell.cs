@@ -3,6 +3,7 @@ using System.Collections;
 
 public class MazeCell : MonoBehaviour {
 	public IntVector2 coordinates;
+	public MazeRoom room;
 
 	// Use this for initialization
 	void Start () {
@@ -14,6 +15,10 @@ public class MazeCell : MonoBehaviour {
 	
 	}
 
+	public void Initialize (MazeRoom room) {
+		room.Add(this);
+		transform.GetChild(0).GetComponent<Renderer>().material = room.settings.floorMaterial;
+	}
 	
 	private MazeCellEdge[] edges = new MazeCellEdge[MazeDirections.Count];
 	

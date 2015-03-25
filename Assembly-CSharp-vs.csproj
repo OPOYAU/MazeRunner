@@ -52,7 +52,10 @@
      <Compile Include="Assets\Scripts\MazeCell.cs" />
      <Compile Include="Assets\Scripts\MazeCellEdge.cs" />
      <Compile Include="Assets\Scripts\MazeDirection.cs" />
+     <Compile Include="Assets\Scripts\MazeDoor.cs" />
      <Compile Include="Assets\Scripts\MazePassage.cs" />
+     <Compile Include="Assets\Scripts\MazeRoom.cs" />
+     <Compile Include="Assets\Scripts\MazeRoomSettings.cs" />
      <Compile Include="Assets\Scripts\MazeWall.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
