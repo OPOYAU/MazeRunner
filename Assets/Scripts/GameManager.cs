@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
 	private int coinsInGame;
 	public GUIText countText;
 	public int coins;
+	public Inventory invent;
 
 	// Use this for initialization
 	void Start () {
